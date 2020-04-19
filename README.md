@@ -36,4 +36,11 @@ images = mnist.train_images()
 scipy.misc.toimage(scipy.misc.imresize(images[0,:,:] * -1 + 256, 10.))
 ```
 
-##
+## Software and Libraries
+
+This project uses the following software and Python libraries:
+
+* [Python](https://www.python.org/downloads/release/python-364/)
+* [NumPy](http://www.numpy.org/)
+* [scipy](https://www.scipy.org/)
+* [matplotlib](https://matplotlib.org/)
