@@ -95,7 +95,7 @@ learning_rate = 0.1
 n = neuralNetwork(input_nodes, hidden_nodes, output_nodes, learning_rate)    
 
 #Trainingsdatensatz (csv) in eine Liste laden
-training_data_file = open("C:\\Users\\Christian\\Studium\\Hochschule\\Master ProdTech\\Semester 4\\Masterprojekt\\MNIST\\Teilmengen\\mnist_train_100_2.csv", 'r')
+training_data_file = open("PATH\\mnist_train_100_2.csv", 'r')
 training_data_list = training_data_file.readlines()
 training_data_file.close()
 
@@ -117,7 +117,7 @@ for record in training_data_list:
 # In[9]:
 
 
-test_data_file = open("C:\\Users\\Christian\\Studium\\Hochschule\\Master ProdTech\\Semester 4\\Masterprojekt\\MNIST\\Teilmengen\\mnist_test_10_2.csv", 'r')
+test_data_file = open("PATH\\MNIST\\Teilmengen\\mnist_test_10_2.csv", 'r')
 test_data_list = test_data_file.readlines()
 test_data_file.close()
 
